@@ -145,7 +145,7 @@ Manta Network Ltd., a British Virgin Islands corporation
 | 4. | Testing | The code will have a __functional__ unit-test coverage (e.g. __70%__) to ensure functionality; test will be conducted against pre-computed data set | 
 
 * Verifiable by:
-  * 1, 2 : Investigating GitHub repository; CI build and test statuse.
+  * 1, 2 : Investigating GitHub repository; CI build and test status.
   * 3, 4: running tests locally from the source code to deploy and test a local chain;  `grcov` for test coverage.
 
 ### Milestone 2 — Parachain implementaion and integration
@@ -166,7 +166,7 @@ Manta Network Ltd., a British Virgin Islands corporation
 
 
 * Verifiable by:
-  * 1, 2, 3, 4: Investigating GitHub repository; CI build and test statuse.
+  * 1, 2, 3, 4: Investigating GitHub repository; CI build and test status.
   * 5, 6: running tests locally from the source code to deploy and test a local chain;  `grcov` for test coverage.
 
 ### Milestone 3 — Cross chain functionality
