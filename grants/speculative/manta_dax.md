@@ -139,8 +139,8 @@ Manta Network Ltd., a British Virgin Islands corporation
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0. | License | Apache 2.0 / MIT / Unlicense |
-| 1. | Substrate module: manta-dax-pallet | We will create a Substrate module that implements the exchange logics |  
-| 2. | Substrate module: manta-dax-crypto | We will create a Substrate module that implements backend zero-knowledge proofs and other neccessary cryptographic components |  
+| 1. | Substrate module: __manta-dax-pallet__ | We will create a Substrate module that implements the exchange logics |  
+| 2. | Substrate module: __manta-dax-crypto__ | We will create a Substrate module that implements backend zero-knowledge proofs and other neccessary cryptographic components |  
 | 3. | Documentation | We will provide an inline documentation of the code; and a demo of the prototype |
 | 4. | Testing | The code will have a __functional__ unit-test coverage (e.g. __70%__) to ensure functionality; test will be conducted against pre-computed data set | 
 
@@ -157,9 +157,9 @@ Manta Network Ltd., a British Virgin Islands corporation
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0. | License | Apache 2.0 / MIT / Unlicense |
-| 1. | Substrate module: manta-dax-runtime | We will create a Substrate runtime module that hooks up the DAX to a parachain |  
+| 1. | Substrate module: __manta-dax-runtime__ | We will create a Substrate runtime module that hooks up the DAX to a parachain |  
 | 2. | Substrate chain | manta-dax-crypto -> manta-dax-pallet -> manta-dax-runtime -> parachain node |  
-| 3. | Rococo integration | Integrate manta-dax parachain to rococo testnet |
+| 3. | Rococo integration | Integrate __manta-dax__ parachain to rococo testnet |
 | 4. | Client | we will provide a client CLI to generate dax package |
 | 5. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works _within the local manta parachain_. |
 | 6. | Testing Guide | The code will have __proper__ unit-test coverage (e.g. __80%__) to ensure functionality and robustness. In the guide we will describe how to run these tests. The tests are run against run-time generated dataset from the Client CLI. | 
@@ -178,8 +178,8 @@ Manta Network Ltd., a British Virgin Islands corporation
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0. | License | Apache 2.0 / MIT / Unlicense |
-| 1. | Substrate module: manta-dax-crosschain | We will create a crosschain module using XCMP and ORML |   
-| 2. | Rococo integration | Integrate manta-dax-crosschain to rococo testnet |
+| 1. | Substrate module: __manta-dax-crosschain__ | We will create a crosschain module using XCMP and ORML |   
+| 2. | Rococo integration | Integrate __manta-dax-crosschain__ to rococo testnet |
 | 3. | Client | we will provide a client CLI to generate dax package for crosschain messages |
 | 4. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works _across different parachains_. |
 | 5. | Testing Guide | The code will have __proper__ unit-test coverage (e.g. __90%__) to ensure functionality and robustness; and with proper edge case tests and stress tests. In the guide we will describe how to run these tests. The tests are run against run-time generated dataset from the Client CLI. | 
